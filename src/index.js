@@ -63,7 +63,8 @@ function lookup(income) {
 		repaymentProposed: proposed.rate * income,
 		differenceRepayment: proposed.rate * income - current.rate * income,
 		differenceRate: (proposed.rate - current.rate) * 100,
-		repaymentRequired: (proposed.rate * income - current.rate * income > 0),
+		repaymentRequired: (proposed.rate * income > 0),
+		noDiff: (proposed.rate * income - current.rate * income === 0),
 		sign: (proposed.rate * income - current.rate * income >= 0) ? 'more' : 'less'
 	}
 }
