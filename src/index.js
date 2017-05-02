@@ -30,7 +30,7 @@ function recalculate() {
 	let income;
 
 	try {
-		income = parseFloat(doc.getElementById('help-taxable-income').value.replace("$",''));
+		income = parseFloat(doc.getElementById('help-taxable-income').value.replace("$",'').replace(",",''));
 	} catch (e) {}
 
 	if (!!income) {
