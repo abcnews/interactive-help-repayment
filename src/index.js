@@ -6,7 +6,7 @@ const container = doc.createElement('div');
 const Handlebars = require("hbsfy/runtime");
 
 Handlebars.registerHelper("currency", function(s) {
-	return s.toFixed(0).replace(/./g, function(c, i, a) {
+	return Math.abs(s).toFixed(0).replace(/./g, function(c, i, a) {
 		return i && c !== "." && ((a.length - i) % 3 === 0) ? ',' + c : c;
 	});
 });
