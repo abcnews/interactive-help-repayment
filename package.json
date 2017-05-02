@@ -1,6 +1,6 @@
 {
   "name": "interactive-help-repayment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A repayment calculator for HELP debt changes proposed for 2017 budget.",
   "license": "MIT",
   "private": true,

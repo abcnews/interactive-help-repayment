@@ -7,14 +7,24 @@
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
+
 			input[type="text"] {
 				padding: 3px;
 				font-size: 120%;
 				width: 190px;
+				border-color: #ccc;
+				border-width: 1px;
+				border-style: solid;
+				border-radius: 3px;
 			}
 
+			@media (max-width: 360px) {
+				input[type="text"], button {
+					width: 100%;
+					margin-top:0.5em;
+				}
+			}
 		}
-
 	}
 
 	h2:first-child {
