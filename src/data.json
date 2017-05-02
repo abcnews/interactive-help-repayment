@@ -1,0 +1,135 @@
+[
+  {
+    "rate": 1.0, 
+    "current": null, 
+    "proposed": 42000.0, 
+    "indexed": 42840.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 1.5, 
+    "current": null, 
+    "proposed": 44520.0, 
+    "indexed": 45410.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 2.0, 
+    "current": 51957.0, 
+    "proposed": 47191.0, 
+    "indexed": 48135.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 2.5, 
+    "current": null, 
+    "proposed": 50022.0, 
+    "indexed": 51023.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 3.0, 
+    "current": null, 
+    "proposed": 53024.0, 
+    "indexed": 54084.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 3.5, 
+    "current": null, 
+    "proposed": 56205.0, 
+    "indexed": 57329.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 4.0, 
+    "current": 57730.0, 
+    "proposed": 59577.0, 
+    "indexed": 60769.0, 
+    "previous": 55874.0
+  }, 
+  {
+    "rate": 4.5, 
+    "current": 64307.0, 
+    "proposed": 63152.0, 
+    "indexed": 64415.0, 
+    "previous": 62239.0
+  }, 
+  {
+    "rate": 5.0, 
+    "current": 70882.0, 
+    "proposed": 66941.0, 
+    "indexed": 68280.0, 
+    "previous": 68603.0
+  }, 
+  {
+    "rate": 5.5, 
+    "current": 74608.0, 
+    "proposed": 70958.0, 
+    "indexed": 72377.0, 
+    "previous": 72208.0
+  }, 
+  {
+    "rate": 6.0, 
+    "current": 80198.0, 
+    "proposed": 75215.0, 
+    "indexed": 76719.0, 
+    "previous": 77619.0
+  }, 
+  {
+    "rate": 6.5, 
+    "current": 86856.0, 
+    "proposed": 79728.0, 
+    "indexed": 81323.0, 
+    "previous": 84063.0
+  }, 
+  {
+    "rate": 7.0, 
+    "current": 91426.0, 
+    "proposed": 84512.0, 
+    "indexed": 86202.0, 
+    "previous": 88487.0
+  }, 
+  {
+    "rate": 7.5, 
+    "current": 100614.0, 
+    "proposed": 89582.0, 
+    "indexed": 91374.0, 
+    "previous": 97378.0
+  }, 
+  {
+    "rate": 8.0, 
+    "current": 107214.0, 
+    "proposed": 94957.0, 
+    "indexed": 96857.0, 
+    "previous": 103766.0
+  }, 
+  {
+    "rate": 8.5, 
+    "current": null, 
+    "proposed": 100655.0, 
+    "indexed": 102669.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 9.0, 
+    "current": null, 
+    "proposed": 106694.0, 
+    "indexed": 108829.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 9.5, 
+    "current": null, 
+    "proposed": 113096.0, 
+    "indexed": 115358.0, 
+    "previous": null
+  }, 
+  {
+    "rate": 10.0, 
+    "current": null, 
+    "proposed": 119882.0, 
+    "indexed": 122279.0, 
+    "previous": null
+  }
+]

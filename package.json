@@ -1,0 +1,66 @@
+{
+  "name": "interactive-help-repayment",
+  "version": "1.0.0",
+  "description": "A repayment calculator for HELP debt changes proposed for 2017 budget.",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Simon Elvery <simon@elvery.net>"
+  ],
+  "scripts": {
+    "build": "aunty build",
+    "start": "aunty serve --debug"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@abcnews/aunty": "2.2.x",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "handlebars": "^4.0.6",
+    "hbsfy": "^2.7.0"
+  },
+  "aunty": {
+    "type": "basic-story",
+    "build": {
+      "scripts": {
+        "watched": "**/*.{js,hbs}",
+        "browserifyOptions": {
+          "transform": [
+            [
+              "/Users/elverys7d/Code/interactive-penalty-rates-calculator/node_modules/hbsfy/index.js"
+            ],
+            [
+              "/Users/elverys7d/Code/interactive-penalty-rates-calculator/node_modules/babelify/index.js",
+              {
+                "presets": [
+                  "/Users/elverys7d/Code/interactive-penalty-rates-calculator/node_modules/babel-preset-es2040/index.js"
+                ]
+              }
+            ]
+          ]
+        }
+      }
+    },
+    "build_debug": {
+      "scripts": {
+        "watched": "**/*.{js,hbs}",
+        "browserifyOptions": {
+          "transform": [
+            [
+              "/Users/elverys7d/Code/interactive-penalty-rates-calculator/node_modules/hbsfy/index.js"
+            ],
+            [
+              "/Users/elverys7d/Code/interactive-penalty-rates-calculator/node_modules/babelify/index.js",
+              {
+                "presets": [
+                  "/Users/elverys7d/Code/interactive-penalty-rates-calculator/node_modules/babel-preset-es2040/index.js"
+                ]
+              }
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

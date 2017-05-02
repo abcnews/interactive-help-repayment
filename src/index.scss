@@ -1,0 +1,68 @@
+
+#help-container {
+
+	&.card .inner {
+		padding: 15px !important;
+		> div > div {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			input[type="text"] {
+				padding: 3px;
+				font-size: 120%;
+				width: 190px;
+			}
+
+		}
+
+	}
+
+	h2:first-child {
+		margin-top: 0;
+	}
+
+	h3 label {
+		min-height: 2em;
+	}
+
+	label {
+		display: block;
+		padding: 3px;
+	}
+
+	#help-result {
+		width: 100%;
+		p:first-child {
+			margin-top: 1em;
+		}
+	}
+
+	#help-notes {
+		font-size: 80%;
+		display: none;
+		:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	#help-notes.show {
+		display: block;
+	}
+}
+
+
+.embed-fragment #help-container {
+	h3 {
+		font-size: 90%;
+		line-height: 1.15em;
+		margin-bottom: 3px;
+	}
+
+	label {
+		padding: 0;
+	}
+
+	input[type="text"] {
+		max-width: 100%;
+	}
+}
